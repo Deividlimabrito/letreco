@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+}
+.container-jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container-keybord {
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.caractere { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 1px;
+    width: 50px;
+    height: 55px;
+}
+.btn input{
+    margin: 2px;
+    width: 30px;
+    height: 40px;
+}
+
+
+
