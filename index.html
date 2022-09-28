@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letreco</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     
 </head>
 <body>
     <h1>Letreco</h1>
     <div class="container-jogo">
         <div class="tentativa">
-            <!-- maxlengt ele informa que eu so posso adicionar uma letra por caixa -->
             <input type="text" maxlength="1" class="caractere">
             <input type="text" maxlength="1" class="caractere">
             <input type="text" maxlength="1" class="caractere">
@@ -49,7 +49,7 @@
     </div>
     <div class="bnts">
         <input type="button" value="clean" id="limpar" onclick="">
-        <input type="button" value="check" id="chute" onclick="">
+        <input type="button" value="check" id="chute" onclick="execute()">
     </div>
     
     <div class="container-keybord">
@@ -75,7 +75,6 @@
             <input type="button" value="J">
             <input type="button" value="K">
             <input type="button" value="L">
-            <input type="button" value="Ç">
         </div>
         <div class="btn">
             <input type="button" value="Z">

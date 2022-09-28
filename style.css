@@ -31,11 +31,15 @@ h1 {
     margin: 2px;
     width: 30px;
     height: 40px;
+    cursor: pointer;
 
 }
 .bnts {
     margin: 20px;
     border-radius: 2px;
+}
+.btn input:hover{
+    background-color: rgba(99, 95, 95, 0.63);
 }
 
 
